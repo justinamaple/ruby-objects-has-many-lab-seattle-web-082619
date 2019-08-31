@@ -18,6 +18,6 @@ class Artist
   end
   
   def count
-    @songs.count
+    songs.count
   end
 end
