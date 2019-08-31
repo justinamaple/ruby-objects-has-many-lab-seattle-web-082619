@@ -11,6 +11,7 @@ class Artist
     p song
     p songs
     songs << song
+    p songs
   end
   
   def add_song_by_name(song_name)
