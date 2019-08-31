@@ -11,7 +11,7 @@ class Artist
     song.artist_name = name
     p song
     p songs
-    songs << song
+    @songs << song
     p songs
   end
   
